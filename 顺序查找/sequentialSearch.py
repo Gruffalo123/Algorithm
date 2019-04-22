@@ -1,3 +1,5 @@
+#无序列表
+
 def sequentialSearch(list,item):
     position = 0
     found = False
