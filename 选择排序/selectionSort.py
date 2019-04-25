@@ -6,6 +6,7 @@ def selectionSort(list):
                 max_index = location
 
         list[fillsort],list[max_index] = list[max_index],list[fillsort]
+        # list[location],list[max_index] = list[max_index],list[location]
 
 test_list = [54,26,93,17,77,31,44,55,20]
 print(test_list)
