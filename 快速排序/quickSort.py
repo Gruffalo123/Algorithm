@@ -6,7 +6,7 @@ def quickSort(list,first_position,last_position):
 
     low_index = first_position
     high_index = last_position
-    
+
     while low_index < high_index:
         #high_index左移
         while low_index < high_index and list[high_index] >= mid_value:
